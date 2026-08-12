@@ -1,0 +1,23 @@
+# Core orchestration
+langgraph==0.2.60
+langchain==0.3.14
+langchain-community==0.3.14
+langchain-core==0.3.29
+langchain-huggingface==0.1.2
+
+# Local LLM inference
+# NOTE: install separately with CPU/BLAS flags, do NOT rely on this line alone:
+# CMAKE_ARGS="-DLLAMA_BLAS=ON -DLLAMA_BLAS_VENDOR=OpenBLAS" pip install llama-cpp-python
+llama-cpp-python==0.3.5
+
+# Telemetry
+fastf1==3.4.4
+pandas==2.2.3
+
+# RAG pipeline
+faiss-cpu==1.9.0
+rank_bm25==0.2.2
+sentence-transformers==3.3.1
+
+# Data validation
+pydantic==2.10.4
